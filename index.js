@@ -1,6 +1,7 @@
 const canvasSketch = require('canvas-sketch');
 
-import { dimensions, generateSketch } from "./sketches/june/intersectingSqares"
+//import { dimensions, generateSketch } from "./sketches/june/intersectingSquares"
+import { dimensions, generateSketch, baseColor } from "./sketches/june/tetris"
 
 const settings = {
   dimensions
@@ -8,7 +9,7 @@ const settings = {
 
 const sketch = () => {
   return ({ context, width, height }) => {
-    context.fillStyle = '#e9edc9';
+    context.fillStyle = baseColor;
     context.fillRect(0, 0, width, height);
 
     generateSketch(context, width, height)

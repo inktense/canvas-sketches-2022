@@ -11,11 +11,10 @@ export const generateSketch = (context, width, height) => {
   const rows = 9;
   const cellW = gridW / cols;
   const cellH = gridH / rows;
-
+  
   const numCells = cols * rows;
 
   const colorsPallete = getColorPalette();
-  console.log("what? ", colorsPallete);
 
   for (let i = 0; i < numCells; i++) {
     // i % 4 = 0, 1, 2, 3...
