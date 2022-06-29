@@ -7,8 +7,8 @@ export const dimensions = "A4";
 export const generateSketch = (context, width, height) => {
   // Retrieveing actual working space
   const { gridW, gridH, margX, margY } = addMarginToCanvas(width, height);
-  const cols = 5;
-  const rows = 4;
+  const cols = 9;
+  const rows = 9;
   const cellW = gridW / cols;
   const cellH = gridH / rows;
 

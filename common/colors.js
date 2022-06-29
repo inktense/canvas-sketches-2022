@@ -1,6 +1,5 @@
 export const collorPalletes = [
     ["#75dbcd","#c9dbba","#dcdba8","#f5cda7","#faa381"],
-    ["#e0f2e9","#ceb5a7","#a17c6b","#5b7b7a","#3c887e"],
     ["#ffa69e","#faf3dd","#b8f2e6","#aed9e0","#5e6472"],
     ["#56cbf9","#7fbeeb","#afbed1","#eac5d8","#dbd8f0"],
     ["#f4f1de","#e07a5f","#3d405b","#81b29a","#f2cc8f"],
