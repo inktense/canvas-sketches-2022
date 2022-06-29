@@ -3,6 +3,7 @@ import { getColorPalette } from "../../utils/helpers";
 import { sample } from "lodash";
 
 export const dimensions = "A4";
+export const baseColor = "white";
 
 export const generateSketch = (context, width, height) => {
   // Retrieveing actual working space

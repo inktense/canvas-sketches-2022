@@ -1,7 +1,8 @@
 const canvasSketch = require('canvas-sketch');
 
-//import { dimensions, generateSketch } from "./sketches/june/intersectingSquares"
-import { dimensions, generateSketch, baseColor } from "./sketches/june/tetris"
+//import { dimensions, generateSketch, baseColor } from "./sketches/june/intersectingSquares"
+// import { dimensions, generateSketch, baseColor } from "./sketches/june/tetris"
+import { dimensions, generateSketch, baseColor } from "./sketches/june/intersectingSquaresSphere"
 
 const settings = {
   dimensions
